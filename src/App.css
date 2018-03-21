@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+html {
+  text-align: center;
+  background-color: #222;
+}
+
+.form-group {
+  /* padding-left: 10px; */
+}
+
+
+.profile  {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 28px;
+}
+
+.profile-followers, .profile-genres {
+  font-size: 16px;
+}
+
+
+/* gallry */
+
+
+.track {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+}
+
+
+.track-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 3px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.track-name {
+  background-color: #222;
+  color: #fff;
+  opacity: 0.75;
+  width: 214px;
+      bottom: 50px;
+    padding: 10px;
+  text-align: center;
+  position: absolute;
+  margin-left: 3px;
+}
